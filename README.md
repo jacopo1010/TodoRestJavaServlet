@@ -1,7 +1,8 @@
 This repository contains a Java-based backend web service for a Todo Application. 
 This project serves as a technical benchmark to explore the balance between Vanilla Java and Lightweight Frameworks,focusing on optimization, resource management, and deployment efficiency.
-The core of this project is a "Hybrid" architecture. Instead of relying on a "magic" heavyweight framework (like Spring Boot) from the start, 
-this version is built to understand exactly what happens under the hood.
+
+🎯 Project Goals & Philosophy
+The core of this project is a "Hybrid" architecture. Instead of relying on a "magic" heavyweight framework (like Spring Boot) from the start, this version is built to understand exactly what happens under the hood.
 
 Why this approach?
 -Dependency Control: To avoid "Dependency Hell" and keep the final binary as slim as possible.
@@ -10,7 +11,7 @@ Why this approach?
 
 -Educational Purpose: This is part of a multi-stage research project. After this, I will implement the same application using Spring Boot to compare metrics such as startup time, memory footprint, and CPU usage.
 
-Tech stack:
+🛠Tech stack:
 -Language: Java (LTS)
 
 -Server: Embedded Servlet Container (Tomcat/Jetty) - focused on handling HTTP requests with low overhead.
@@ -19,7 +20,7 @@ Tech stack:
 
 -Infrastructure: The service is designed to be deployed on a Linux Virtual Machine hosted on a Proxmox hypervisor, simulating a professional production environment.
 
-Deployment Enviroment
+🚀Deployment Enviroment
 Unlike many local projects, this backend is built with "Infrastructure as Code" principles in mind:
 
 -Virtualization: Hosted on Proxmox VE.
