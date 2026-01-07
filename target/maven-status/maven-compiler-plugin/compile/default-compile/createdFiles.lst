@@ -1,0 +1,13 @@
+it\todorestapp\siw\repository\TodoRepository.class
+it\todorestapp\siw\model\Todo.class
+it\todorestapp\siw\data\JpaUtil.class
+it\todorestapp\siw\service\TodoService.class
+it\todorestapp\siw\util\ResponseManager.class
+it\todorestapp\siw\repository\SimpleRepository.class
+it\todorestapp\siw\controller\CategoriaController.class
+it\todorestapp\siw\controller\TodoController.class
+it\todorestapp\siw\model\Categoria.class
+it\todorestapp\siw\repository\SimpleRepositoryImpl.class
+it\todorestapp\siw\repository\CategoriaRepository.class
+it\todorestapp\siw\main\TodoRestApp.class
+it\todorestapp\siw\service\CategoriaService.class
