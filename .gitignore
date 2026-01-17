@@ -1,6 +1,7 @@
 src/main/resources/META-INF/persistence.xml
 
 src/main/webapp/WEB-INF/web.xml
+target/
 .env
 .env.*
 *.pem
